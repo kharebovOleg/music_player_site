@@ -15,26 +15,26 @@ body {
     font-size: 35px;
     line-height: 43px;
     color: white;
-    background-image: url(images/pngwing.com.png);
+    background-image: url(images/stars.avif);
 }
 
-.page_header{
+.page_header {
     width: 1440px;
 }
 
-.navigation{
+.navigation {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
     min-height: 70px;
     padding-top: 105px;
     padding-right: 65px;
+    padding-left: 115px;
 }
 
 .logo {
     display: block;
-    margin-top: 8px;
-
+    
     font-family: Libre Barcode 128 Text;
     font-size: 80px;
     font-weight: 400;
@@ -52,9 +52,81 @@ body {
 .navigation_list {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
-    margin: auto 0;
-    padding: 0;
-    margin-left: 149px;
+    gap: 100px;
+    margin-left: 347px;
     list-style: none;
+    color: white;
+}
+
+.navigation_title_main {
+    width: 56px;
+    height: 26px;
+    top: 74px;
+    left: 518px;
+    gap: 0px;
+    opacity: 0px;
+
+    font-family: Istok Web;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25.91px;
+    text-align: left;
+
+    text-decoration: none;
+    color: white;
+}
+
+.container_page {
+    display: flex;
+    padding-top: 164px;
+    padding-left: 115px;
+}
+
+.text_main {
+    width: 412px;
+    height: 264px;
+    top: 291px;
+    left: 115px;
+    gap: 0px;
+    opacity: 0px;
+
+    font-family: Kenia;
+    font-size: 150px;
+    font-weight: 400;
+    line-height: 150px;
+    text-align: left;
+
+    color: #FFFFFF;
+}
+
+.company_borth {
+    display: block;
+
+    width: 290px;
+    height: 63px;
+    padding-top: 175px;
+    padding-left: 122px;
+    gap: 0px;
+    opacity: 0px;
+    
+    font-family: Istok Web;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28.79px;
+    text-align: left;
+}
+
+.phone_kabel {
+    float: right;
+    width: 500px;
+    height: 888.01px;
+    
+    margin-top: -600px;
+    margin-right: 1200px;
+}
+
+.kabel {
+    padding-top: 0;
+    padding-left: 43px;
+    margin-top: -200px;
 }
