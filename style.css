@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    height: 100%;
+    flex-direction: column;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 43px;
+    color: white;
+    background-image: url(images/pngwing.com.png);
+}
+
+.page_header{
+    width: 1440px;
+}
+
+.navigation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 70px;
+    padding-top: 105px;
+    padding-right: 65px;
+}
+
+.logo {
+    display: block;
+    margin-top: 8px;
+
+    font-family: Libre Barcode 128 Text;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 80px;
+    text-align: left;
+
+    width: 53px;
+    height: 80px;
+    top: 47px;
+    left: 122px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.navigation_list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: auto 0;
+    padding: 0;
+    margin-left: 149px;
+    list-style: none;
+}
