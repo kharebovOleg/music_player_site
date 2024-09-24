@@ -13,6 +13,11 @@
     src: url(fonts/IstokWeb-Regular.ttf);
 }
 
+@font-face {
+    font-family: 'Karla';
+    src: url(fonts/Karla-VariableFont_wght.ttf);
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -30,14 +35,13 @@ body {
     font-size: 35px;
     line-height: 43px;
     color: white;
-    background-image: url(images/stars.avif);
-
-    
 }
 
-.desktop_1{
+.main_page{
     width: 1440px;
     height: 1024px;
+    background-image: url(images/stars.avif);
+    z-index: -1;
 }
 
 .page_header {
@@ -75,7 +79,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 100px;
-    margin-left: 347px;
+    margin-left: 250px;
     list-style: none;
     color: white;
 }
@@ -140,7 +144,7 @@ body {
 
 .phone {
     position: relative;
-    left: 980px;
+    left: 880px;
     top: -670px;
     padding-left: 30px;
     padding-top: 0;
@@ -150,7 +154,125 @@ body {
 
 .kabel {
     position: relative;
-    left: 1058px;
+    left: 958px;
     top: -835px;
     z-index: 0;
+}
+
+.music_page {
+    display: block;
+    
+    
+    width: 1440px;
+    height: 1024px;
+    top: 1024px;
+
+    background: #D53005;
+}
+
+.music_word {
+
+    width: 84px;
+    height: 35px;
+    top: 83px;
+    left: 122px;
+    gap: 0px;
+    opacity: 0px;
+
+    font-family: 'Karla';
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35.07px;
+
+    padding-top: 83px;
+    padding-left: 122px;
+}
+
+.listen_now {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+     
+    width: 382px;
+    height: 83px;
+    
+    margin-top: 267px;
+    margin-left: 122px;
+
+    
+    background: radial-gradient(98.43% 2084.95% at 1.57% 7.83%, #B13E18 0%, #F3501A 100%);
+    border: 1px solid #00000080;
+
+    box-shadow: -4px -4px 30px 0px #FFFFFF1A;
+    box-shadow: 4px 4px 4px 0px #00000080;
+}
+
+.listen_now_text{
+    position: relative;
+    right: 50px;
+
+    width: 196px;
+    height: 47px;
+
+    margin-top: 18px;
+    margin-left: 93px;
+    vertical-align: middle;
+    
+    font-family: 'Karla';
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 46.76px;
+
+    color: #FFFFFF;
+
+    
+}
+
+.find_song {
+    display: flex;
+    justify-content: center;
+
+    width: 382px;
+    height: 83px;
+    
+    margin-top: 106px;
+    margin-left: 122px;
+
+    background: radial-gradient(98.43% 2084.95% at 1.57% 7.83%, #B13E18 0%, #F3501A 100%);
+    border: 1px solid #00000080;
+
+    box-shadow: -4px -4px 30px 0px #FFFFFF1A;
+    box-shadow: 4px 4px 4px 0px #00000080;
+
+}
+
+.find_song_text {
+    position: relative;
+    right: 30px;
+
+    width: 250px;
+    height: 47px;
+
+    margin-top: 18px;
+    margin-left: 75px;
+    vertical-align: middle;
+    
+    font-family: 'Karla';
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 46.76px;
+
+    color: #FFFFFF;
+}
+
+.music_picture{
+
+    position: relative;
+    
+    width: 1000px;
+    height: 666.5px;
+    top: -470px;
+    left: 440px;
+    gap: 0px;
+    opacity: 0px;
 }
